@@ -1,7 +1,7 @@
 import time
 from itertools import cycle
 from flask import Flask, render_template
-from robot_brain.gpio_pin import GPIOPin
+from gpio_pin import GPIOPin
 
 app = Flask(__name__)
 on_pin = GPIOPin(18)
